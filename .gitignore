@@ -1,43 +1,74 @@
-# yii console commands
+# ==== SYSTEM CONFIGS ====
+
+# PhpStorm
+.idea/
+*.iml
+
+# NetBeans
+nbproject/
+
+# Zend Studio / Eclipse
+.buildpath
+.project
+.settings/
+
+# Vagrant
+.vagrant/
+
+# Node.js
+/node_modules/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Composer vendor dir
+/vendor/
+composer.phar
+
+# PHPUnit
+phpunit.phar
+/phpunit.xml
+
+# Yii CLI files
 /yii
 /yii_test
 /yii_test.bat
 
-# phpstorm project files
-.idea
+# ==== YII2 ADVANCED SPECIFIC ====
 
-# netbeans project files
-nbproject
+# Runtime - auto-generated logs/cache
+runtime/
+backend/runtime/
+frontend/runtime/
+console/runtime/
 
-# zend studio for eclipse project files
-.buildpath
-.project
-.settings
+# Web Assets - auto-generated
+frontend/web/assets/
+backend/web/assets/
 
-# windows thumbnail cache
-Thumbs.db
+# Local config files (usifanye push GitHub)
+common/config/main-local.php
+backend/config/main-local.php
+frontend/config/main-local.php
+console/config/main-local.php
 
-# composer vendor dir
-/vendor
+# Environment variables
+.env
+.env.local
 
-# composer itself is not needed
-composer.phar
+# Mail templates
+common/mail/
 
-# Mac DS_Store Files
-.DS_Store
+# Auto-generated test output
+/tests/_output/
 
-# phpunit itself is not needed
-phpunit.phar
-# local phpunit config
-/phpunit.xml
-
-# vagrant runtime
-/.vagrant
-
-# ignore generated files
-/frontend/web/index.php
-/frontend/web/index-test.php
-/frontend/web/robots.txt
-/backend/web/index.php
-/backend/web/index-test.php
-/backend/web/robots.txt
+# Web entry points (optional: ignore if not customized)
+frontend/web/index.php
+frontend/web/index-test.php
+frontend/web/robots.txt
+backend/web/index.php
+backend/web/index-test.php
+backend/web/robots.txt

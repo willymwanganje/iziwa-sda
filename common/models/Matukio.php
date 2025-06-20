@@ -52,5 +52,6 @@ class Matukio extends ActiveRecord
             'tarehe_ya_kwisha' => 'Tarehe ya Kwisha',
             'picha' => 'Picha ya Tukio',
         ];
+        
     }
 }

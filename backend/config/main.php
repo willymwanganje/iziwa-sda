@@ -37,14 +37,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+        'db' => require dirname(__DIR__, 2) . '/common/config/db.php',
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                // weka kanuni zako hapa ikiwa unahitaji
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
